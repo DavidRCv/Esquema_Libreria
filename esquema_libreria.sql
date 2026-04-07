@@ -81,6 +81,11 @@ INSERT INTO libros (titulo, isbn, autor_id, genero_id) VALUES
 ('La Casa de los Espiritus', '5555555555551', 5, 1),
 ('Eva Luna', '5555555555552', 5, 5);
 
+-- pregunta 6 correccion
+INSERT INTO libros (titulo, isbn, autor_id, genero_id) VALUES
+('Harry Potter 3', '2222222222223', 2, 2),
+('Harry Potter 4', '2222222222224', 2, 2);
+
 -- creating the reservations
 INSERT INTO reservaciones (libro_id, patron_id, fecha) VALUES
 (1, 1, '2026-04-01'),
